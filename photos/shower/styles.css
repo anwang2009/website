@@ -8,24 +8,26 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: block;
   margin: auto;
-  /*display: flex;
   align-items: center;
-  justify-content: center;*/
+  display: flex;
+  justify-content: center;
 }
 
 .center-fit {
+    margin: auto;
+    display: block;
 	max-width: 90%;
 	max-height: 90vh;
-	margin: auto;
+	/*margin: auto;*/
 }
 
 /* Next & previous buttons */
@@ -85,7 +87,7 @@
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0.5s;
 }
 
 @keyframes fade {
